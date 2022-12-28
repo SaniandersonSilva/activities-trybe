@@ -3,4 +3,6 @@ let result = 0;
 for (let index = 0; index < numbers.length; index += 1) {
     result += numbers[index];
 }
-console.log(result);
+//console.log(result);
+let media = result / numbers.length;
+console.log(media);
